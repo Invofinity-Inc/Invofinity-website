@@ -4,20 +4,26 @@
     <meta charset="UTF-8">
     <link rel="icon" href="assets/favicon.png" sizes="36x36" type="image/png">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style1.css">
     <title>Invofinity</title>
     
 </head>
 <body id="hom" style="cursor: default;">
     
-    <nav>
+    <!--<nav>
         <div class="logo" >
             <a href="#hom">
                 <img src="assets/logo.png" width="240">
             </a>
         </div>
         <ul class="items">
-            
+          <div class="nav-btn">
+            <label for="nav-check">
+              <span></span>
+              <span></span>
+              <span></span>
+            </label>
+          </div>
               <li class="active"><a href="#hom">Home</a></li>
               <li ><a href="#pro">Projects</a></li>
               <li ><a href="#why">Why Choose Us?</a></li>
@@ -25,14 +31,39 @@
               <li ><a href="#our">Our Company</a></li>
               <li ><a href="#got">Contact Us</a></li>
         </ul>
-    </nav>
+    </nav>-->
+      <div class="nav">
+        
+      <div class="nav-header">
+        <a href="#hom">
+          <img class="logo" src="assets/logo1.svg" width="100">
+      </a>
+      </div>
+      <div class="ham" onclick="myFunction(this)">
+        <div class="bar1"></div>
+        <div class="bar2"></div>
+        <div class="bar3"></div>
+      </div>
+      
+      <ul class="nav-links">
+        <li class="active"><a href="#hom" >Home</a></li>
+        <li ><a href="#pro">Projects</a></li>
+        <li ><a href="#why">Why Choose Us</a></li>
+        <li ><a href="#ser">Services</a></li>
+        <li ><a href="#our">Our Company</a></li>
+        <li ><a href="#got">Contact Us</a></li>
+      </ul>
+    </div>
+    <div class="back-img" >
+      <div class="back-lay">
     <br >
     <br>
     <br>
     <br>
     <div class="parent-head">
         <div class="parent-head2">
-          <img src="assets/startup.svg" width="50">
+          <!--<img src="assets/startup.svg" width="50">-->
+          <!--<div style="margin: auto; height: 40px; opacity: 1;width: 2px;background-color: #fff;" class="line"></div>-->
           <br><br>
             <div class="headline" >
                 Where&nbsp; possibilities&nbsp; are&nbsp; made&nbsp; possible !
@@ -56,11 +87,11 @@
 <br>
 <br>
 <br>
-<br ><br id="pro"><br><br><br><br><br>
+<br ><br ><br><br><br><br></div></div><br id="pro"><br><br><br><br><br>
     <section class="projects" id="projects">
-      <h2 class="services-name" >
+      <div class="services-name" >
         Projects
-      </h2>
+      </div>
       <br>
    <br>
    <br>
@@ -142,13 +173,40 @@
 <!--This is end of varun----------------------------------------------------------------------------------------------->
 
     <!-- Akshita Beginsssssss -->
-    <br ><br id="why"><br><br><br><br><br><br><br>
+    <br ><br id="why"><br><div class="space"><br><br><br><br><br><br></div>
     <h2 class="services-name" >
          Why Choose Us?
-    </h2>
-    <br>
+    </h2><br><br>
+    <div class="space"><br><br><br><br><br></div>
+    <div class="container">
+      <div class="content">
+        <img class="image1" src="assets/digital.svg" height="40">
+        <h3>We know digital<br>&nbsp;</h3>
+    </div>
+    
+    <div class="line"></div>
+    
+    <div class="content">
+      <img class="image1" src="assets/cpu.svg" height="40">
+      <h3>We use Advanced Technology</h3>
+  </div>
 
-    <div class="whychooseus">
+  <div class="line"></div>
+  
+  <div class="content">
+    <img class="image1" src="assets/coin.svg" height="40">
+    <h3>We don't cost the Earth!</h3>
+</div>
+<div class="line"></div>
+
+<div class="content">
+  <img class="image1" src="assets/communicate.svg" height="30">
+  <h3>We are easy to work with</h3>
+</div>
+
+    </div>
+    <div class="space"><br><br><br><br><br><br></div>
+    <!--<div class="whychooseus">
       <div class="container">
           <div class="card">
               <div class="face face1">
@@ -163,6 +221,7 @@
                   </div>
           </div>
       </div>
+     
       
       <div class="card">
           <div class="face face1">
@@ -177,7 +236,7 @@
               </div>
       </div>
   </div>
-
+ 
   <div class="card">
     <div class="face face1">
         <div class="content">
@@ -192,7 +251,9 @@
 </div>
 </div>
 
+
 <div class="card">
+  
   <div class="face face1">
       <div class="content">
           <img class="image1" src="assets/communicate.svg" height="30">
@@ -206,20 +267,20 @@
 </div>
 </div>
 
-  </div>
+  </div>-->
 
 
-</div>
+<!--</div>-->
       
   
       <!--Akshita ends-->
 
     <!--services-->
-    <br ><br id="ser"><br><br><br><br><br><br>
+    <br ><br id="ser"><div class="space"><br><br><br><br><br><br></div>
     <h2 class="services-name" >
          Services
     </h2>
-    <br><br>
+    <div class="space"><br><br></div>
     
     <div class="row">
         <div class="column">
@@ -243,10 +304,14 @@
                   <br>
                   
                   <a href="/app.html">
-                    <div class="name13">
-                    </div>
+                    
+                      <div class="name13">Discover more
+                      </div>
+                    
                   </a>
               </div>
+          </div>
+          <div class="line" >
           </div>
           <div class="card2">
             <div class="content">
@@ -258,20 +323,22 @@
                 <br>
                   <br>
                   <br>
-                  <div class="name21"> Web Development</div>
+                  <div class="name11"> Web Development</div>
                   <br>
                   <br>
-                  <div class="name22">
+                  <div class="name12">
                     The Web remains the most open runtime available today. We ensure that websites exceed users expectations, including accessibility and responsive design.
                   </div>
                   <br>
                   <br>
                   
                   <a href="/web.html">
-                    <div class="name23">
+                    <div class="name23">Discover more
                     </div>
                   </a>
             </div>
+          </div>
+          <div class="line" >
           </div>
           <div class="card3">
             <div class="content">
@@ -283,17 +350,17 @@
                 <br>
                   <br>
                   <br>
-                  <div class="name31"> Design </div>
+                  <div class="name11"> Design </div>
                   <br>
                   <br>
-                  <div class="name32">
+                  <div class="name12">
                     User-centered design, where visual UI is informed by UX and content strategy, creates seamless and intuitive digital experiences.
                   </div>
                   <br>
                   <br>
                   
                   <a href="/design.html">
-                    <div class="name33">
+                    <div class="name33">Discover more
                     </div>
                   </a>
             </div>
@@ -301,26 +368,115 @@
         </div>
     </div>
 <!--our company-->
-<br ><br><br><br ><br ><br ><br id="our"><br>
+<br ><br ><br id="our"><br>
 
     <div class="section">
       <br><br><br><br>
-    <h2 class="services-name" >
+    <h2 class="services-name">
          Our Company
     </h2>
     <br><br>
-    <div class="tech-des" style="padding-left: 55px;">Our seasoned architects help our clients evaluate options to bring their projects to life. The best mobile experiences require a robust back-end foundation. Our teams have years of experience integrating with back-end and middleware systems and can evaluate alternatives based on cost, time to market.</div>
-      <br><br><br>
-      <div style="font-family: TTNorms;font-size: 24px;color: #05386b;font-weight: bold;padding-left: 55px;">Our Team</div>
+    <div class="tech-des">Our seasoned architects help our clients evaluate options to bring their projects to life. The best mobile experiences require a robust back-end foundation. Our teams have years of experience integrating with back-end and middleware systems and can evaluate alternatives based on cost, time to market.</div>
+      <br><br><br><br><br>
+      <div style="font-family: TTNorms;font-size: 44px;color: #000;font-weight: bold;padding-left: 55px;text-align: center;padding-right: 55px;">Our Team</div>
+      <br><br>
     <div class="OurCompany">
-        <div class="container1">
+      <div style="display: block;">
+      <div class="parent-head4">
+        <div>
+          <img style="border-radius: 8px;" width="80" src="assets/akshita.jpg">
+        </div>
+        <div class="mt"></div>
+        <div class="content1">
+          <div>
+              <h3 class="content11">Akshita Joshi</h3>
+              <p class="content12">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+          </div>
+      </div>
+      </div>
+
+      <div class="parent-head4">
+        <div>
+          <img style="border-radius: 8px;" width="80" src="assets/akshita.jpg">
+        </div>
+        <div class="mt"></div>
+        <div class="content1">
+          <div>
+              <h3 class="content11">Varun Lohade</h3>
+              <p class="content12">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+          </div>
+      </div>
+      </div>
+
+      <div class="parent-head4">
+        <div>
+          <img style="border-radius: 8px;" width="80" src="assets/akshita.jpg">
+        </div>
+        <div class="mt"></div>
+        <div class="content1">
+          <div>
+              <h3 class="content11">Durgesh Kudalkar</h3>
+              <p class="content12">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+          </div>
+      </div>
+      </div>
+    
+    </div>
+<!--new---------------------------------------------------------------------------------------->
+    <div class="parent-head5">
+      <div class="parent-head5">
+        <div>
+          <img style="border-radius: 8px;" width="80" src="assets/akshita.jpg">
+        </div>
+        <div class="mt"></div>
+        <div class="content1">
+          <div>
+              <h3 class="content11">Akshita Joshi</h3>
+              <p class="content12">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+          </div>
+      </div>
+      </div>
+
+      <div class="line" >
+      </div>
+
+      <div class="parent-head5">
+        <div>
+          <img style="border-radius: 8px;" width="80" src="assets/akshita.jpg">
+        </div>
+        <div class="mt"></div>
+        <div class="content1">
+          <div>
+              <h3 class="content11">Varun Lohade</h3>
+              <p class="content12">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+          </div>
+      </div>
+      </div>
+
+      <div class="line" >
+      </div>
+
+      <div class="parent-head5">
+        <div>
+          <img style="border-radius: 8px;" width="80" src="assets/akshita.jpg">
+        </div>
+        <div class="mt"></div>
+        <div class="content1">
+          <div>
+              <h3 class="content11">Durgesh Kudalkar</h3>
+              <p class="content12">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+          </div>
+      </div>
+      </div>
+    
+    </div>
+<!--new end----------------------------------------------------------------------------------->
+        <!--<div class="container1">
         <div class="cards">
-            <div class="imgBx"  >
-              
+            <div class="imgBx">
                 <figure>
                   <img style="border-radius: 8px;" src="assets/akshita.jpg">
                 </figure>
-                
             </div>
             <div class="content1">
                 <div>
@@ -329,6 +485,10 @@
                 </div>
             </div>
             </div>
+
+            <div class="line" >
+            </div>
+
             <div class="cards">
                 <div class="imgBx" >
                   <figure>
@@ -342,6 +502,10 @@
                     </div>
                 </div>
                 </div>
+
+                <div class="line" >
+                </div>
+
                 <div class="cards">
                     <div class="imgBx">
                       <figure>
@@ -355,8 +519,9 @@
                         </div>
                     </div>
                     </div>
-        </div>
-      </div><br ><br><br ><br id="got"><br><br><br><br>
+
+        </div>-->
+      </div><br ><br><br ><br ><br><br id="got"><br><br>
     </div>
       <!--end of company------------------------------------------------------------------------------------------->
 
@@ -376,7 +541,7 @@
           <!--left box-->
           <div class="contact-left">
             <br><br>
-            <h3>Send your request</h3>
+            <h3 class="sendyourrequest">Send your request</h3>
             <form>
               <div class="input-row">
                 <div class="input-group">
@@ -402,10 +567,15 @@
                   
                 </div>
               </div>
-              <label>Message</label>
+              <div class="input-row">
+                <div class="input-group">
+                  <label>Message</label>
               <textarea rows="5" placeholder="Your message"></textarea>
+                </div>
+              </div>
               <br><br><br>
-              <button type ='submit' class="submit-button">SEND</button>
+              <div class="send"><button type ='submit' class="submit-button">SEND</button></div>
+              
               <br><br><br>
             </form>
            
@@ -431,6 +601,17 @@
           <div class="footer-des">
             invofinity@gmail.com
           </div>
+
+          <div class="resp-footer">
+            <div class="footer-name">
+              Help & queries
+            </div>
+            <div class="footer-des">
+              help.invofinity@gmail.com
+            </div>
+          </div>
+          
+
           <br><br><br>
           <div class="social-icons">
             <a href="https://www.instagram.com/invofinity_social/" target="_blank">
@@ -448,7 +629,11 @@
           <br><br>
         </div>
 
-        <div>
+        <div class="resp-footer3">
+          INVOFINITY
+        </div>
+        
+        <div class="resp-footer2">
           <div class="footer-name">
             Help & queries
           </div>
@@ -460,10 +645,15 @@
         <div class="mt"></div>
         <div class="mt"></div>
 
-        <a href="#hom">
-          <img src="assets/logo1.png" width="240">
-        </a>
-
+        <!--<a href="#hom">
+          <img class="logo1" src="assets/logo1.svg" width="240">
+        </a>-->
+        <div>
+          <div style="font-family: Neon;font-size: 18px;color: #fff;letter-spacing: 10px;">INVOFINITY</div>
+        <div style="color: #fff;margin-top: 20px;font-family: Neon;font-size: 10px;letter-spacing: 8px;">SOLAPUR, MAHARSAHTRA</div>
+        <div style="color: #fff;margin-top: 10px;font-family: Neon;font-size: 10px;letter-spacing: 8px;">INDIA</div>
+        </div>
+        
       </div>
 
     </div>

@@ -8,21 +8,20 @@
     <title>Invofinity-App Development</title>
 </head>
 <body id="app">
-    <nav>
-        <div class="logo">
-            <a href="/index.html">
-                <img src="assets/logo.png" width="240">
-            </a>
+    <div class="nav">
+      
+        <div class="nav-header">
+          <a href="#hom">
+            <img class="logo" src="assets/logo.svg" width="240">
+        </a>
         </div>
-        <ul class="items">
-            <li></li>
-            <li></li>
-            <li></li>
-            <a href="/index.html">
-                <li class="active"> < &nbsp;&nbsp; Home</li>
-            </a>
+        
+        <ul class="nav-links">
+            
+          <li ><a href="/index.html">< &nbsp;&nbsp; Home</a></li>
         </ul>
-    </nav>
+      </div>
+      
     <br>
     <br>
     
@@ -79,7 +78,7 @@
            <div class="tech-item">
                <div class="parent-head3">
                 <div>
-                    <img src="/assets/logos/flutter.svg" width="40">
+                    <img  src="/assets/logos/flutter.svg" width="40">
                 </div>
                 <div class="mt"></div>
                 <div>
@@ -141,6 +140,7 @@
         <div class="flowcard">
             <div class="flowcard-children">
                  <div>
+                    <img class="image4" src="assets/app/research.jpg" height="400" width="600">
                      <br>
                      <br>
                      <br>
@@ -160,6 +160,7 @@
         <div class="flowcard">
             <div class="flowcard-children">
                  <div>
+                    <img class="image4" src="assets/app/uiux.jpg" height="400" width="600">
                      <br>
                      <br>
                      <br>
@@ -176,6 +177,7 @@
         <div class="flowcard">
             <div class="flowcard-children">
                  <div>
+                    <img class="image4" src="assets/app/estimation.jpg" height="400" width="600">
                      <br>
                      <br>
                      <br>
@@ -191,6 +193,7 @@
         <div class="flowcard">
             <div class="flowcard-children">
                  <div>
+                    <img class="image4" src="assets/app/development.jpg" height="400" width="600">
                      <br>
                      <br>
                      <br>
@@ -206,6 +209,7 @@
         <div class="flowcard">
             <div class="flowcard-children">
                  <div>
+                    <img class="image4" src="assets/app/testing.jpg" height="400" width="600">
                      <br>
                      <br>
                      <br>
@@ -238,7 +242,7 @@
         <img class="icon2" src="assets/services-svg/web.svg" height="40">
         <br>
         <br>
-        <div class="name21"> Web Development</div>
+        <div class="name11"> Web Development</div>
         <br>
         <br>
         </div>
@@ -259,7 +263,7 @@
         <img class="icon2" src="assets/services-svg/design.svg" height="40">
         <br>
         <br>
-        <div class="name21"> Design</div>
+        <div class="name11"> Design</div>
         <br>
         <br>
         </div>
@@ -289,9 +293,20 @@
         <div class="footer-des">
           invofinity@gmail.com
         </div>
+
+        <div class="resp-footer">
+          <div class="footer-name">
+            Help & queries
+          </div>
+          <div class="footer-des">
+            help.invofinity@gmail.com
+          </div>
+        </div>
+        
+
         <br><br><br>
         <div class="social-icons">
-          <a href="#headl">
+          <a href="https://www.instagram.com/invofinity_social/" target="_blank">
             <img src="assets/social/ig.svg" width="20">
           </a>
           <div class="mt1"></div>
@@ -306,7 +321,11 @@
         <br><br>
       </div>
 
-      <div>
+      <div class="resp-footer3">
+        INVOFINITY
+      </div>
+      
+      <div class="resp-footer2">
         <div class="footer-name">
           Help & queries
         </div>
@@ -318,10 +337,15 @@
       <div class="mt"></div>
       <div class="mt"></div>
 
-      <a href="/index.html">
-        <img src="assets/logo1.png" width="260">
-      </a>
-
+      <!--<a href="#hom">
+        <img class="logo1" src="assets/logo1.svg" width="240">
+      </a>-->
+      <div>
+        <div style="font-family: Neon;font-size: 18px;color: #fff;letter-spacing: 10px;">INVOFINITY</div>
+      <div style="color: #fff;margin-top: 20px;font-family: Neon;font-size: 10px;letter-spacing: 8px;">SOLAPUR, MAHARSAHTRA</div>
+      <div style="color: #fff;margin-top: 10px;font-family: Neon;font-size: 10px;letter-spacing: 8px;">INDIA</div>
+      </div>
+      
     </div>
 
   </div>
@@ -330,7 +354,7 @@
 
     <script>
         window.addEventListener("scroll",function(){
-    var nav=document.querySelector("nav");
+    var nav=document.querySelector(".nav");
     nav.classList.toggle("sticky",window.scrollY>0);
 });
     </script>
