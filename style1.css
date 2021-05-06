@@ -23,13 +23,12 @@
 a{
     text-decoration: none;
 }
-*{
+* {
     margin: 0px;
-    padding: 0px;
+    padding-bottom: 5px;
     box-sizing: border-box;
     scroll-behavior: smooth;
 }
-
 
   .back-img{
     background-image: url('assets/background1.jpg');
