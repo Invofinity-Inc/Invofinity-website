@@ -1049,6 +1049,8 @@ list-style-type: none
   list-style-type: none;
   color: #ccc;
   margin-left: 10px;
+  align-items: center;
+justify-content: center;
   font-size: 12px;
 }
 .containerr .card .content ul li a{
@@ -1057,6 +1059,8 @@ list-style-type: none
   padding: 0 10px;
   font-size: 18px;
   transition: 0.5s;
+  align-items: center;
+justify-content: center;
    list-style-type: none;
 
 }
