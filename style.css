@@ -975,7 +975,6 @@ font-size: 18px;
 }
 
 
-/*This is start of varun-----------------------------------------------------------------------------------------*/
 
 #Contact-Form{
 background:white;
@@ -1228,7 +1227,6 @@ li{
 list-style: none;
 }
 
-/*This is end of varun-------------------------------------------------------------------------------------------*/
 
 .submit-button{
 height: 40px;
@@ -1265,7 +1263,6 @@ opacity: 0.3;
 }
 
 
-/*Akshita-------------------------------------------------------------------------------------------------------*/
 
 .whychooseus{
 padding-right: 55px;
@@ -1544,7 +1541,6 @@ font-size: 14px;
 }
 }
 
-/*Akshita ends---------------------------------------------------------------------------------------------------------*/
 
 
 .nav {
@@ -1639,39 +1635,7 @@ opacity: 0;
   align-items: center;
   justify-content: initial;
  
-}/*
-.nav > .nav-btn {
-  display: inline-block;
-  position: absolute;
-  padding-top: auto;
-  padding-bottom: auto;
-  right: 20px;
 }
-.ham{
-  display: inline-block;
-cursor: pointer;
-  opacity: 1;
-}
-
-.nav > .nav-links {
-  position: absolute;
-  display: block;
-  width: 100%;
-  background-color: #333;
-  height: 0px;
-  transition: all 0.3s ease-in;
-  overflow-y: hidden;
-  top: 100px;
-  left: 0px;
-  right: 0px;
-}
-.nav > .nav-links > li {
-  display: block;
-  padding: 20px;
-  font-size: 22px;
-  color: #333;
-  width: 100%;
-}*/
 
 .nav > .nav-links > li > a {
 

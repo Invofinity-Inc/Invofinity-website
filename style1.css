@@ -718,7 +718,6 @@ li.active a {
   font-size: 18px;
 }
 
-/*This is start of varun-----------------------------------------------------------------------------------------*/
 
 #Contact-Form {
   background: white;
@@ -1068,7 +1067,6 @@ li {
   list-style: none;
 }
 
-/*This is end of varun-------------------------------------------------------------------------------------------*/
 
 .submit-button {
   height: 40px;
@@ -1103,7 +1101,6 @@ li {
   opacity: 0.3;
 }
 
-/*Akshita-------------------------------------------------------------------------------------------------------*/
 
 .whychooseus {
   padding-right: 117px;
@@ -1615,32 +1612,7 @@ li {
   align-items: center;
   padding-left: 5%;
 }
-/*
-@media (max-width:800px) {
-  .containerr {
-    width: 100%;
-    padding-left: 48px;
-    padding-right: 0px;
-    height: auto;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 187px;
-    grid-gap: 50px;
-}
-.container {
-    align-items: center;
-    padding-left: 33%;
-}
-.services-name {
-    padding-left: 80px;
-  }
-    .tech-des{
 
-    padding-left: 235px
-    }
-}*/
-
-/*--------------------------------------------------------------------------------------------------------------------------------------*/
 .nav {
   background-color: #000;
   padding: 25px;
